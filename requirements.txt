@@ -1,0 +1,44 @@
+# Core AI & Computer Vision
+ultralytics==8.1.0      # The YOLOv8 framework
+opencv-python>=4.9.0    # For webcam and video processing
+opencv-python-headless  # Headless version (optional, good for servers)
+easyocr>=1.7.1          # Optical Character Recognition for License Plates
+
+# Database
+mysql-connector-python>=8.3.0  # Connects Python to MySQL
+
+# Deep Learning Framework (Standard CPU/GPU auto-detect)
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Mathematical & Data Operations
+numpy>=1.26.0
+pandas>=2.2.0           # Useful for handling data if you expand the project
+scipy>=1.12.0
+matplotlib>=3.8.0       # Required by YOLO for plotting graphs
+
+# Utilities
+tqdm                    # Progress bars
+pyyaml                  # For reading config files
+requests                # For downloading models automatically
+
+
+## 📦 Installation
+
+1. **Install PyTorch with GPU Support (Recommended):**
+   ```bash
+   pip3 install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+
+Install the rest of the requirements:
+
+Bash
+
+pip install -r requirements.txt
+
+
+
+##important note: If you have an NVIDIA GPU and want to leverage it for faster training and inference, make sure to install the CUDA-enabled version of PyTorch. The above command installs the version compatible with CUDA 12.1. If you don't have a compatible GPU or prefer to use CPU, simply run:
+   ```bash
+   pip3 install torch torchvision torchaudio
+   ```

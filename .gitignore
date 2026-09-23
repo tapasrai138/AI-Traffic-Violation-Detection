@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# YOLO model weights (large files - download separately)
+yolov8n.pt
+yolov8s.pt
+yolo26n.pt
+
+# Evidence screenshots (generated at runtime)
+evidence/
+
+# Database files
+*.db
+*.sqlite
+
+# EasyOCR model cache
+.EasyOCR/
+
+# YOLO runs/output
+runs/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Ultralytics settings
+settings.json
+
+# Helmet detection training dataset (large - not needed for running)
+Helmet-Detection-Using-yolo-v8-1/
+
+# Write helper (dev only)
+write_main.py
