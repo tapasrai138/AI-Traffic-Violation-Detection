@@ -1,0 +1,15 @@
+names:
+- licensePlate
+- motorcycle
+- withHelmet
+- withoutHelmet
+nc: 4
+roboflow:
+  license: Public Domain
+  project: helmet-detection-using-yolo-v8-r4rgl
+  url: https://app.roboflow.com/helmetdetector-1ia1h/helmet-detection-using-yolo-v8-r4rgl/1
+  version: 1
+  workspace: helmetdetector-1ia1h
+test: ../test/images
+train: ../train/images
+val: ../valid/images

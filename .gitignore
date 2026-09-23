@@ -37,8 +37,5 @@ Thumbs.db
 # Ultralytics settings
 settings.json
 
-# Helmet detection training dataset (large - not needed for running)
-Helmet-Detection-Using-yolo-v8-1/
-
 # Write helper (dev only)
 write_main.py
